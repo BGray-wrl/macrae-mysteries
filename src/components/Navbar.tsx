@@ -18,9 +18,9 @@ const Navbar = () => {
               <Link href="#author-section" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                 Author
               </Link>
-              <Link href="/contact" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+              <a href="mailto:david.grayzel@gmail.com" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                 Contact
-              </Link>
+              </a>
             </div>
           </div>
         </div>
