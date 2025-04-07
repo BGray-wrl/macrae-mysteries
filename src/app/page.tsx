@@ -39,7 +39,7 @@ export default function Home() {
               {/* <h2 className="text-3xl font-bold text-gray-200 mb-4">Latest Release</h2> */}
               <h3 className="text-2xl mb-2 text-gray-300">Point Mutation</h3>
                 <p className="text-gray-400 mb-6 italic">
-                "When Macrae arrived for his shift that morning he had no idea he would pronounce someone dead. <br/><br/> It wasn't uncommon in the ER. It happened, just not every day. Grandpa got rushed to the hospital after being found in his pajamas on the bathroom floor, or grandma just wouldn't wake up. <br/><br/> Only this one was different because thirty-year-olds didn't die in his ER unless they wrapped themselves around a telephone pole or found the bottle of Oxycontin. They didn't die like this."
+                &quot;When Macrae arrived for his shift that morning he had no idea he would pronounce someone dead. <br/><br/> It wasn&apos;t uncommon in the ER. It happened, just not every day. Grandpa got rushed to the hospital after being found in his pajamas on the bathroom floor, or grandma just wouldn&apos;t wake up. <br/><br/> Only this one was different because thirty-year-olds didn&apos;t die in his ER unless they wrapped themselves around a telephone pole or found the bottle of Oxycontin. They didn&apos;t die like this.&quot;
                 </p>
               <a
                 href="#"
