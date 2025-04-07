@@ -22,7 +22,8 @@ export default function Home() {
             MACRAE MYSTERIES
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            A medical mystery thriller series
+            {/* See the latest release */} <br/><br/><br/>
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 mt-8">
             <div className="relative w-64 h-96 shadow-xl transform hover:scale-105 transition-transform duration-300">
@@ -35,16 +36,16 @@ export default function Home() {
               />
             </div>
             <div className="max-w-md text-left">
-              <h2 className="text-3xl font-bold mb-4">Latest Release</h2>
-              <h3 className="text-2xl mb-2 text-gray-200">Point Mutation</h3>
-              <p className="text-gray-300 mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vel consectetur euismod, nisi velit condimentum nisl, eget aliquam nunc quam nec nisi.
-              </p>
+              {/* <h2 className="text-3xl font-bold text-gray-200 mb-4">Latest Release</h2> */}
+              <h3 className="text-2xl mb-2 text-gray-300">Point Mutation</h3>
+                <p className="text-gray-400 mb-6 italic">
+                "When Macrae arrived for his shift that morning he had no idea he would pronounce someone dead. <br/><br/> It wasn't uncommon in the ER. It happened, just not every day. Grandpa got rushed to the hospital after being found in his pajamas on the bathroom floor, or grandma just wouldn't wake up. <br/><br/> Only this one was different because thirty-year-olds didn't die in his ER unless they wrapped themselves around a telephone pole or found the bottle of Oxycontin. They didn't die like this."
+                </p>
               <a
-                href="#book-section"
+                href="#"
                 className="px-6 py-3 bg-red-800 hover:bg-red-700 text-white rounded-md font-medium transition duration-300"
               >
-                Explore the Series
+                Read More
               </a>
             </div>
           </div>
@@ -55,20 +56,32 @@ export default function Home() {
       <section id="book-section" className="relative z-10 py-24 bg-gray-900 bg-opacity-70">
         <div className="max-w-6xl mx-auto px-8">
           <h2 className="text-4xl font-bold mb-12 text-center text-gray-200">The Series</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((book) => (
-              <div key={book} className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2 text-gray-300">Book {book}</h3>
-                  <p className="text-gray-400 mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-                  <a href="#" className="text-red-500 hover:text-red-400">
-                    Read more →
-                  </a>
-                </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Book 1 */}
+            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2 text-gray-300">Point Mutation</h3>
+                <p className="text-gray-400 mb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" className="text-red-500 hover:text-red-400">
+                  Read more →
+                </a>
               </div>
-            ))}
+            </div>
+            
+            {/* Book 2 - Coming Soon */}
+            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2 text-gray-300">Book 2</h3>
+                <p className="text-gray-400 mb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#book-section" className="text-red-500 hover:text-red-400">
+                  Coming Soon!
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -79,19 +92,30 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-8 text-center text-gray-200">About the Author</h2>
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-48 h-48 relative rounded-full overflow-hidden flex-shrink-0">
-              <div className="absolute inset-0 bg-gradient-to-br from-red-800 to-gray-900"></div>
+              <div className="absolute inset-0 bg-red-950"></div>
               <div className="absolute inset-2 bg-gray-800 rounded-full flex items-center justify-center text-3xl font-bold">
-                DG
-              </div>
+
+              <Image
+                src="/david.png"
+                alt="David Grayzel"
+                fill
+                style={{ objectFit: "cover" }}
+                className="rounded-full"
+              />
+            </div>
             </div>
             <div>
-              <h3 className="text-2xl font-semibold mb-4 text-gray-300">David Grayzel</h3>
-              <p className="text-gray-400 mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Maecenas feugiat magna vel diam finibus, vel ultrices metus aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+              {/* <h3 className="text-2xl font-semibold mb-4 text-gray-300">David Grayzel</h3> */}
+              <p className="text-gray-400 mb-4 text-sm italic">
+              David Grayzel is a physician, biotech entrepreneur, and accidental venture capitalist. After studying creative writing at Stanford, he got his MD at Harvard and completed his residency at Mass General Hospital. 
+              <br/><br/>
+              Compelled by the opportunity to discover new medicines, he has been CEO of several successful biotechnology companies and helped launch many others with pursuits ranging from migraine prevention to gene therapy for cancer. He is currently a Partner at Atlas Venture focused on creating the next generation of innovative medicines. 
+              <br/><br/>
+              His first novel, “Point Mutation,” is rooted in his decades of experience in medicine, and his lifelong admiration of The Simple Art of Murder.
               </p>
-              <a href="#" className="text-red-500 hover:text-red-400">
+                <a href="https://atlasventure.com/team/david-grayzel-md/" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-400">
                 Learn more →
-              </a>
+                </a>
             </div>
           </div>
         </div>
