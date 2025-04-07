@@ -23,7 +23,7 @@ export default function Home() {
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto">
             A medical mystery thriller series
-            {/* See the latest release */} <br/><br/><br/>
+            {/* See the latest release */} <br/><br/>
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 mt-8">
             <div className="relative w-64 h-96 shadow-xl transform hover:scale-105 transition-transform duration-300">
