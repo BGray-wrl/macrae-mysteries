@@ -43,7 +43,7 @@ export default function Home() {
                 Dr. Macrae doesn&apos;t believe in unexplained deaths. Especially not when a thirty-year-old flatlines in his ER with no warning, no symptoms, and no obvious cause. Young, healthy, and dead. So he does what he always does—asks one too many questions. <br /> <br />
                 Only this time, Macrae may not want the answers because some very unpleasant people have spent a fortune burying the truth.<br /><br />
                 Digging into the case means stirring up things better left alone: shady science, bad money, and the kind of muscle that doesn&apos;t knock. <br /><br />
-                People keep telling him to let it go. Macrae&apos;s never been great at that. But if he keeps poking around, someone&apos;s going to make sure he stops…for good.
+                People keep telling him to let it go. Macrae&apos;s never been great at that. But if he keeps poking around, someone&apos;s going to make sure he stops… for good.
               </p>
               <a
                 href="#"
@@ -111,11 +111,7 @@ export default function Home() {
             <div>
               {/* <h3 className="text-2xl font-semibold mb-4 text-gray-300">David Grayzel</h3> */}
               <p className="text-gray-400 mb-4 text-sm italic">
-                David Grayzel is a physician, biotech entrepreneur, and accidental venture capitalist. After studying creative writing at Stanford, he got his MD at Harvard and completed his residency at Mass General Hospital.
-                <br /><br />
-                Compelled by the opportunity to discover new medicines, he has been CEO of several successful biotechnology companies and helped launch many others with pursuits ranging from migraine prevention to gene therapy for cancer. He is currently a Partner at Atlas Venture focused on creating the next generation of innovative medicines.
-                <br /><br />
-                His first novel, “Point Mutation,” is rooted in his decades of experience in medicine, and his lifelong admiration of The Simple Art of Murder.
+                David Grayzel is a physician and biotech entrepreneur who&apos;s spent his career at the intersection of science and motive. After studying creative writing at Stanford, he earned his MD from Harvard and trained at Massachusetts General Hospital. He went on to lead and launch biotechnology companies developing new treatments for diseases ranging from ALS to cancer. A partner at Atlas Venture for more than a decade, he brings a doctor&apos;s eye for detail and a storyteller&apos;s instinct for trouble to his debut novel, Point Mutation.
               </p>
               <a href="https://atlasventure.com/team/david-grayzel-md/" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-400">
                 Learn more →
