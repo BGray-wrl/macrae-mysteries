@@ -19,36 +19,39 @@ export default function Home() {
       <section className="relative z-10 pt-20 md:pt-16 pb-16 px-8 flex flex-col items-center justify-center min-h-screen">
         <div className="max-w-5xl mx-auto text-center space-y-8 mt-8 md:mt-0">
           <h1 className="text-5xl md:text-5xl font-bold text-white drop-shadow-lg">
-          A MEDICAL THRILLER SERIES
-        {/* MACRAE MYSTERIES */}
+            A MEDICAL THRILLER SERIES
+            {/* MACRAE MYSTERIES */}
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto">
-        {/* A medical mystery thriller series */}
-        {/* See the latest release */} <br/>
+            {/* A medical mystery thriller series */}
+            {/* See the latest release */} <br />
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 mt-8">
-        <div className="relative w-64 h-96 shadow-xl transform hover:scale-105 transition-transform duration-300">
-          <Image
-            src="/book-cover.png"
-            alt="Macrae Mysteries Book Cover"
-            fill
-            style={{ objectFit: "cover" }}
-            className="rounded-md"
-          />
-        </div>
-        <div className="max-w-md text-left">
-          {/* <h2 className="text-3xl font-bold text-gray-200 mb-4">Latest Release</h2> */}
-          <h3 className="text-2xl mb-2 text-gray-300">Point Mutation</h3>
-            <p className="text-gray-400 mb-6 italic">
-            &quot;It&apos;s a fact of life that patients die in the ER. But not like this. When the beleaguered but brilliant Dr. Macrae fails to save a 30-year-old patient who dies in front of him, he can&apos;t let it go. And when the widow has more questions than answers, it sets Macrae on a collision course with the dark side of science and the money that funds it. <br/><br/>Finding the truth will take all he has because tracking him now are a pair of ex-military mercenaries and a killer with everything to lose. Soon Macrae is investigating more than he bargained for and wondering if the next one to die might be him.&quot;
-            </p>
-          <a
-            href="#"
-            className="px-6 py-3 bg-red-800 hover:bg-red-700 text-white rounded-md font-medium transition duration-300"
-          >
-            Read More
-          </a>
-        </div>
+            <div className="relative w-64 h-96 shadow-xl transform hover:scale-105 transition-transform duration-300">
+              <Image
+                src="/book-cover.png"
+                alt="Macrae Mysteries Book Cover"
+                fill
+                style={{ objectFit: "cover" }}
+                className="rounded-md"
+              />
+            </div>
+            <div className="max-w-md text-left">
+              {/* <h2 className="text-3xl font-bold text-gray-200 mb-4">Latest Release</h2> */}
+              <h3 className="text-2xl mb-2 text-gray-300">Point Mutation</h3>
+              <p className="text-gray-400 mb-6 italic">
+                Dr. Macrae doesn&apos;t believe in unexplained deaths. Especially not when a thirty-year-old flatlines in his ER with no warning, no symptoms, and no obvious cause. Young, healthy, and dead. So he does what he always does—asks one too many questions. <br /> <br />
+                Only this time, Macrae may not want the answers because some very unpleasant people have spent a fortune burying the truth.<br /><br />
+                Digging into the case means stirring up things better left alone: shady science, bad money, and the kind of muscle that doesn&apos;t knock. <br /><br />
+                People keep telling him to let it go. Macrae&apos;s never been great at that. But if he keeps poking around, someone&apos;s going to make sure he stops…for good.
+              </p>
+              <a
+                href="#"
+                className="px-6 py-3 bg-[#1A4314] hover:bg-[#004B23] text-white rounded-md font-medium transition duration-300"
+              >
+                Read More
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -63,20 +66,20 @@ export default function Home() {
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-gray-300">Book 1: Point Mutation</h3>
                 <p className="text-gray-400 mb-4 text-sm italic">
-              &quot;When Macrae arrived for his shift that morning he had no idea he would pronounce someone dead. It wasn&apos;t uncommon in the ER. It happened, just not every day. Grandpa got rushed to the hospital after being found in his pajamas on the bathroom floor, or grandma just wouldn&apos;t wake up. Only this one was different because thirty-year-olds didn&apos;t die in his ER unless they wrapped themselves around a telephone pole or found the bottle of Oxycontin. They didn&apos;t die like this.&quot;
+                  &quot;When Macrae arrived for his shift that morning he had no idea he would pronounce someone dead. It wasn&apos;t uncommon in the ER. It happened, just not every day. Grandpa got rushed to the hospital after being found in his pajamas on the bathroom floor, or grandma just wouldn&apos;t wake up. Only this one was different because thirty-year-olds didn&apos;t die in his ER unless they wrapped themselves around a telephone pole or found the bottle of Oxycontin. They didn&apos;t die like this.&quot;
                 </p>
                 <a href="#" className="text-red-500 hover:text-red-400">
                   Buy Now →
                 </a>
               </div>
             </div>
-            
+
             {/* Book 2 - Coming Soon */}
             <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-gray-300">Book 2: Twisted Helix</h3>
                 <p className="text-gray-800 mb-4 text-sm italic select-none opacity-0">
-                &quot;When Macrae arrived for his shift that morning he had no idea he would pronounce someone dead. It wasn&apos;t uncommon in the ER. It happened, just not every day. Grandpa got rushed to the hospital after being found in his pajamas on the bathroom floor, or grandma just wouldn&apos;t wake up. Only this one was different because thirty-year-olds didn&apos;t die in his ER unless they wrapped themselves around a telephone pole or found the bottle of Oxycontin. They didn&apos;t die like this.&quot;
+                  &quot;When Macrae arrived for his shift that morning he had no idea he would pronounce someone dead. It wasn&apos;t uncommon in the ER. It happened, just not every day. Grandpa got rushed to the hospital after being found in his pajamas on the bathroom floor, or grandma just wouldn&apos;t wake up. Only this one was different because thirty-year-olds didn&apos;t die in his ER unless they wrapped themselves around a telephone pole or found the bottle of Oxycontin. They didn&apos;t die like this.&quot;
                 </p>
                 <p className="text-red-500">
                   Coming 2026
@@ -96,27 +99,27 @@ export default function Home() {
               <div className="absolute inset-0 bg-red-950"></div>
               <div className="absolute inset-2 bg-gray-800 rounded-full flex items-center justify-center text-3xl font-bold">
 
-              <Image
-                src="/david.png"
-                alt="David Grayzel"
-                fill
-                style={{ objectFit: "cover" }}
-                className="rounded-full"
-              />
-            </div>
+                <Image
+                  src="/david.png"
+                  alt="David Grayzel"
+                  fill
+                  style={{ objectFit: "cover" }}
+                  className="rounded-full"
+                />
+              </div>
             </div>
             <div>
               {/* <h3 className="text-2xl font-semibold mb-4 text-gray-300">David Grayzel</h3> */}
               <p className="text-gray-400 mb-4 text-sm italic">
-              David Grayzel is a physician, biotech entrepreneur, and accidental venture capitalist. After studying creative writing at Stanford, he got his MD at Harvard and completed his residency at Mass General Hospital. 
-              <br/><br/>
-              Compelled by the opportunity to discover new medicines, he has been CEO of several successful biotechnology companies and helped launch many others with pursuits ranging from migraine prevention to gene therapy for cancer. He is currently a Partner at Atlas Venture focused on creating the next generation of innovative medicines. 
-              <br/><br/>
-              His first novel, “Point Mutation,” is rooted in his decades of experience in medicine, and his lifelong admiration of The Simple Art of Murder.
+                David Grayzel is a physician, biotech entrepreneur, and accidental venture capitalist. After studying creative writing at Stanford, he got his MD at Harvard and completed his residency at Mass General Hospital.
+                <br /><br />
+                Compelled by the opportunity to discover new medicines, he has been CEO of several successful biotechnology companies and helped launch many others with pursuits ranging from migraine prevention to gene therapy for cancer. He is currently a Partner at Atlas Venture focused on creating the next generation of innovative medicines.
+                <br /><br />
+                His first novel, “Point Mutation,” is rooted in his decades of experience in medicine, and his lifelong admiration of The Simple Art of Murder.
               </p>
-                <a href="https://atlasventure.com/team/david-grayzel-md/" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-400">
+              <a href="https://atlasventure.com/team/david-grayzel-md/" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-400">
                 Learn more →
-                </a>
+              </a>
             </div>
           </div>
         </div>
