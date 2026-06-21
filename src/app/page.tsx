@@ -22,7 +22,7 @@ export default function Home() {
           fill
           style={{ objectFit: "cover", objectPosition: "center" }}
           priority
-          className="brightness-[0.5]"
+          className="brightness-[0.6]"
         />
       </div>
 
